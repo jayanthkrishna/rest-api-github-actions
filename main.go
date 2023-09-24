@@ -6,8 +6,10 @@ import (
 )
 
 func main() {
+
 	app := fiber.New()
 
 	routes.GetRoutes(app)
 	app.Listen(":3000")
+
 }
