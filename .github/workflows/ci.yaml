@@ -18,6 +18,8 @@ jobs:
         run: go get .
       - name: Build
         run: go build -v ./...
+      - name: list dir
+        run: ls -ltrh
       # - name: build
       #   run: go build -o main
       # - name: change permissions
